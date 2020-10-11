@@ -1,4 +1,8 @@
 <?php
+$title = "How workink ISSET";
+include_once "../header.php"; //подключает файл 
+include_once "../footer.php";
+
 function IsDetMatrix3x3 ($arrayMatrix){
     $firstSum = $arrayMatrix[0][0] * $arrayMatrix[1][1] * $arrayMatrix[2][2];
     $secondSum = $arrayMatrix[2][0] * $arrayMatrix[0][1] * $arrayMatrix[1][2];

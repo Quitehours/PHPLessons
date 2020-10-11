@@ -1,4 +1,8 @@
 <?php
+$title = "Found Prime Number";
+include_once "../header.php"; //подключает файл 
+include_once "../footer.php";
+
 $str;
 $numUser = 10;
 for ($i=2; $i < $numUser; $i++) {

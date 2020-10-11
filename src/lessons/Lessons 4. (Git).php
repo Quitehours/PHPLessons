@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <?php
+    $title = "Decrement Matrix";
+include_once "../header.php"; //подключает файл 
+include_once "../footer.php";
+    ?>
     </head>
 
 <body>

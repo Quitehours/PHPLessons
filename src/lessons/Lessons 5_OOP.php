@@ -1,4 +1,8 @@
 <?php
+$title = "Lessons OOP";
+include_once "../header.php"; //подключает файл 
+include_once "../footer.php";
+
 //Классы и объекты
 
 //Свойства - это переменные внутри класса, а
