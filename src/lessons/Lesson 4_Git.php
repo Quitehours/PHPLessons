@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <?php
-    $title = "Decrement Matrix";
+    $title = "Git tutorial";
 include_once "../header.php"; //подключает файл 
 include_once "../footer.php";
     ?>
