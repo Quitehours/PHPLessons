@@ -15,5 +15,12 @@ fwrite($file, "Example/nText/nNext");
 fclose($file);//файл точно закрыть нужно-всегда
 
 
-//
+//выводим на экран то что мы сделали
+$file =fopen("a.txt", "r+t");
+while(!feof($file)){//feof проверяет какую часть файа мы считали
+fread($file, 1)."<br/>";
+}
+fclose($file);
+
+
 ?>
