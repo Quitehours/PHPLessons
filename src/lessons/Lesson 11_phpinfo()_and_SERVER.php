@@ -7,7 +7,7 @@ phpinfo ();
 //Вывод информация про php 
 
 
-echo $ _SERVER ['SERVER_ADDR'];
+echo $_SERVER ['SERVER_ADDR'];
 //Глобальный массив $SERVER хранить все информацию о пользователе
 //который зашел на сервер
 

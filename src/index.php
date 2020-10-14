@@ -16,7 +16,6 @@ $scan = scandir(DIR);
     <a href="<?= "/lessons/" . $scan[$i] ?>"><?= $scan[$i] ?></a><br/>
 <?  
 }
-
 ?>
 <!-- </body>
 </html> -->
