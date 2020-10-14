@@ -1,3 +1,4 @@
+
 <?php
 $title = "Array function";
 include_once "../header.php"; //подключает файл 
