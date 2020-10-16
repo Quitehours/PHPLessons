@@ -29,3 +29,16 @@ $scanCSS = scandir(CSSDIR);
 }
 ?>
 </div>
+
+<div style="width:100px; height:100px; background-color:">
+<h1 align="center"></h1>
+<?php
+const WEBSITEDIR = 'MyWebSite';
+$scanCSS = scandir(WEBSITEDIR);
+    for ($i=2;$i<=count($scanCSS);$i++){
+?>
+    <a href="<?= "/MyWebSite/" . $scanCSS[$i] ?>"><?=$scanCSS[$i]?></a><br/>
+<?  
+}
+?>
+</div>

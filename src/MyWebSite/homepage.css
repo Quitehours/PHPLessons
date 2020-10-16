@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+}
+html{
+    background: url('../\ image_for_page/Lesson1.jpg');
+}
+header {
+    width: calc(100% - 20px);
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 0px;
+    text-align: center;
+}
+#HTML {
+    width: 10%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-left: 7%;
+    font-size: 1.1em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+#CSS {
+    width: 10%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-left: 14%;
+    font-size: 1.1em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+#PHP {
+    width: 10%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-left: 14%;
+    font-size: 1.1em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+#MySQL {
+    width: 10%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 20px;
+    margin-left: 14%;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+#MyAchievementsInHTML, #MyAchievementsInCSS, #MyAchievementsInPHP, #MyAchievementsInMySQL {
+    width: 21%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin: 10px 25px 10px 25px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 0px;
+    text-align: center;
+    position: relative;
+}
+.textTable {
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height:8px;
+    font-size: 0.7em;
+}
+footer {
+    width: calc(100% - 20px);
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin-top: 25px;
+    font-size: 1.1em;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 1px;
+}
+#HTML:hover, #CSS:hover, #PHP:hover, #MySQL:hover {
+    width: 10%;
+    height: 60px;
+    background-color: rgba(100, 148, 237, 0.63);
+    font-size: 1.3em;
+    line-height: 3px;
+ }
+ a:hover {
+    width: 1%;
+    height: 10px;
+    background-color: rgba(100, 148, 237, 0.63);
+    font-size: 1.3em;
+    line-height: 3px;
+ }
+ a:visited, a, a:active{
+    color: black; 
+ }
+ 

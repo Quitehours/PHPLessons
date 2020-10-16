@@ -1,0 +1,73 @@
+/*
+font-size: Размер шрифта 
+font_weight: bold/normal/100-900 Жирность текста
+font-family: Times New Roman Стиль Шрифт
+    (sans-serif - если нет шрифта такого, то само подбирет шрифт)
+text-decoration: текст подчеркнут/перечеркнут/мигать будет
+text-align: положение текста по горизонту 
+    (:justify во всю длина строки текст)
+text-indent:  1.1em отступ/абзац
+text-transform: capitalize/uppercase/lowrcase буквы в абзаце
+word-spacing: 10px интервал между словами
+letter-spacing: 10px отступ между буквами
+line-height:10px интервал между строками
+
+*/
+
+
+* {
+    text-decoration: none;
+    /*font-size: 20px;*/    
+}/* к всему документу*/
+
+
+body {
+    /*background-color: #a4edbe;*/
+}
+#header {
+    color: red;
+}
+h3 {
+    color:blue
+}
+h3.style { 
+    color:yellow
+}
+p.style {
+    background-color: blue;
+    color: white;
+}
+p i{ 
+    color:orange;
+}
+/* Body,h1 - селекторы
+{} - блок объявления стилей
+background-color - свойства
+red - стили */
+p.example, b {
+    font-size: 30px;
+    font-weight: lighter; /*Толщина текста*/
+}
+p#exam:first-letter {
+    color:red;
+}
+
+p#exam:first-line {
+    color:red;
+}
+.href {
+    color:red;
+}
+.href:hover/*Наводим мышку*/ {
+    color:greenyellow;
+
+}
+p:hover{/*Выделелние фона текста hover при наведение*/
+    background-color: rebeccapurple;
+}
+.href:active{/*Выделение по нажатию active*/
+    color: teal;
+}
+.href:visited{
+    color:none;
+}
