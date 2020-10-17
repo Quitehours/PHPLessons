@@ -1,8 +1,7 @@
 <?php
 $title = "Task OOP from Dmitriy SH";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
-
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 class Animal{
     use Wild, Domesticated;
 

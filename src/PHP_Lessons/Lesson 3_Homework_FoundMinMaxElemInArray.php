@@ -1,7 +1,7 @@
 <?php
 $title = "Task min/max from Sketch";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 /*Ваше задание — создать массив, наполнить его случайными значениями 
 (можно использовать функцию rand), найти максимальное и минимальное значение массива и поменять их местами.
 После каждого существенного изменения массива отображать его через var_dump*/

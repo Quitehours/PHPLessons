@@ -1,7 +1,7 @@
 <?php
 $title = "GET/POST";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 // echo var_dump($_GET); //Выводит информацию о переменной
 
 // echo "Здравствуй " . $_GET['name'] . '. Я так рад что тебе ' . $_GET['age'] . ' лет';

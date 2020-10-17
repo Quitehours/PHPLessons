@@ -1,7 +1,7 @@
 <?php
 $title = "phpinfo() and SERVER";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 phpinfo ();
 //Вывод информация про php 

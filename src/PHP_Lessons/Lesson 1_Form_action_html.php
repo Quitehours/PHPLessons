@@ -1,7 +1,7 @@
 <?php
 $title = "Form Processing";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php";
 ?>
     
  <!--<form action="/logic/backend.php">

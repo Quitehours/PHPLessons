@@ -1,9 +1,8 @@
 
 <?php
 $title = "Array function";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
-
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 $array = array (12, 12, 1, 13, 4, 5, 9,);
 

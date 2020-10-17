@@ -1,7 +1,7 @@
 <?php
 $title = "Sending massage to email";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 $massage = "Это самое простое сообщение в мире";
 $to = "dimka.ept@gmail.com";

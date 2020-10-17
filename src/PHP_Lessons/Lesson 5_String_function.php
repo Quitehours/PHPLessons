@@ -1,8 +1,7 @@
 <?php
 $title = "String function";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
-
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 
 $string = "This is example";

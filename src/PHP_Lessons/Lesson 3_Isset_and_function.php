@@ -1,7 +1,7 @@
 <?php
 $title = "How workink ISSET";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 if(!isset($_GET['calc'])) { //Проверка имеет ли какое-то значение через isset - get(calc)
 ?>

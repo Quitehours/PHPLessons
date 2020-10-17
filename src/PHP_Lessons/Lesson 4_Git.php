@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <?php
     $title = "Git tutorial";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
-    ?>
+    include_once "../MyWebSite/header.php"; //подключает файл 
+    include_once "../MyWebSite/footer.php"
+        ?>
     </head>
 
 <body>

@@ -1,7 +1,7 @@
 <?php
 $title = "Working with file";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
 $file = fopen ("a.txt", "a+t");//она открывает файл и проводит с ним манипуляции
 //Созадем файл a.txt, "r" - символ открывающий файл только для чтения

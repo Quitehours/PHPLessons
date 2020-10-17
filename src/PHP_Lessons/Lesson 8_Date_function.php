@@ -1,7 +1,7 @@
 <?php
 $title = "Date function";
-include_once "../header.php"; //подключает файл 
-include_once "../footer.php";
+include_once "../MyWebSite/header.php"; //подключает файл 
+include_once "../MyWebSite/footer.php"
 
     echo time()."<br/>";//возвращает кол-во секунд прошедших с 1 января 1970 года
     //был основан UNIX
