@@ -35,7 +35,14 @@ position:absolute/fixed/relative/static
 top:/right:/left:/buttom: - отступы с разных сторон
     
 */
+p {
+    color: black;
+    background-color: blanchedalmond;
+
+}
 *{
+    font-size: 1.1em;
+    text-decoration: none;
     background-color: cornflowerblue;
 }
 
@@ -53,7 +60,7 @@ header {
 }
 article, aside {
     background-color: #fafafa;
-    height: 400px;
+    height: 65  0px;
     border-radius: 10px;
     border: 1px solid silver;
     box-sizing: border-box;
@@ -61,7 +68,8 @@ article, aside {
     float: left;
 }
 article {
-    width: 60%;
+    float: left;
+    width: 45%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
@@ -70,7 +78,8 @@ article {
     clear: both;
 } */
 aside {
-    width: 25%;
+    padding: 1%;
+    width: 45%;
 }
 footer {
     width: calc(100% - 20px);
@@ -85,7 +94,6 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:left;
 }
-
 /*  Свойство блоков:
 
 */

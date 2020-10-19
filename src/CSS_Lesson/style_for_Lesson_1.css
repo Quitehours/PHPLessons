@@ -27,6 +27,11 @@ body {
 #header {
     color: red;
 }
+#headerText {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif
+    ;
+}
 h3 {
     color:blue
 }
