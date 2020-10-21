@@ -1,5 +1,8 @@
 *{
-    background-color: cornflowerblue;
+    text-decoration: none;
+}
+html {
+    /* background-color: cornflowerblue; */
 }
 header {
     font-size: 3em;
@@ -23,6 +26,52 @@ header {
     border-radius: 15px;
     float: left;
     padding: 1%;
+    font-size: 1.3em;
+    
+}
+aside ul {
+    width: 80%;
+    margin-left: 10%;
+    list-style-position: outside;
+    list-style-type: disc;
+    list-style-image: url(https://i.citrus.ua/imgcache/size_500/uploads/shop/8/4/84752e20fe69f6258fb161c3095333a7.jpg);
+}
+/*
+    list-style-position: outside;
+        inside в блоке 
+    list-style-type: disc; стиили дисков
+
+    display: block; - Из любомого елемента получается блок
+        inlane - в одну строку
+        none - ничего не отображатся
+        list-item - любой елемент будет частью списка
+
+    visibility:hidden - текст будет скрыт, но под него освободится пространство
+
+    overflow: visible - текст, который вылазит он показывается
+        hidden - если текст вылазит, то он не показывается
+        scroll - колесо прокрутки появится
+        auto - колесо прокрутки, которые необходимы
+
+    min/max width -допустимые значения длины
+
+    ul
+
+
+    Слои ксс для меню:
+       z-index: -10; - слои, который не видно
+*/
+menu {
+    position: relative;
+    z-index: -1;
+}
+.spanBlock {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    overflow: visible;
+    font-size: 1.3em;
 }
 footer {
     width: calc(100% - 60px);   

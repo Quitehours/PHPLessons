@@ -57,6 +57,10 @@
                 }
             ?>
         </div>
-        <footer><p>footer</p></footer>        
+        <footer>
+            <div style="JS">
+                <a href="/JavaScript_Lesson/index.html">JavaScript</a>
+            </div>
+        </footer>        
     </body>
 </html>
