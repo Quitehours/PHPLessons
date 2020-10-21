@@ -68,8 +68,8 @@
 
 //> < >= <=
 //mdn web page
-const isFullAge = (currentYear - birthYear) >= fullAge; // 26 >= 27
-console.log(isFullAge);
+// const isFullAge = (currentYear - birthYear) >= fullAge; // 26 >= 27
+// console.log(isFullAge);
 
 //6.Условные операторы
 // const courseStatus = 'pending'; //ready, fail, pending
@@ -104,9 +104,35 @@ console.log(isFullAge);
 
 
 
-//7. Булевая логика
+// 7. Булевая логика
 
 // && - логическое "и"
 // || - логическое "или"
 // !true - логическое "не"
 
+
+// 8. Функции: 
+
+// function calculateAge (year) {
+//     const nowYear = 2020;
+//     age = nowYear - year;
+//     if(age >= 0) {
+//     return age; 
+//     }else {
+//         console.log('Введите корректный год, сейчас ' + year);
+//     }
+// }
+// console.log(calculateAge(1999));
+
+// function logInfoAbout(name,year) {
+//     const age = calculateAge(year);
+    
+//     console.log('Человек по имени ' + name + ' сейчас имееет возраст' + age);
+// }
+// logInfoAbout('Vladilen',1993);
+
+
+// 9.Массивы 
+
+const cars = ['Мазда', 'Мерседес', 'Форд'];
+console.log(cars);
