@@ -1,0 +1,22 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Node JS Course for me",
+  "main": "node.js",
+  "scripts": {
+    "start": "node node.js",
+    "dev": "nodemon node.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Lukash Dmitriy <dimka.ept@gnail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
