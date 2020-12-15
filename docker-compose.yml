@@ -19,12 +19,12 @@ services:
       - ./src:/usr/share/nginx/html
 
   mysql:
-    image: mysql:5.7
+    image: mysql:8
     environment:
       MYSQL_DATABASE: db
-      MYSQL_USER: user
-      MYSQL_PASSWORD: Password54321
-      MYSQL_ROOT_PASSWORD: SuperSickretPassword123
+      MYSQL_USER: roots
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
     volumes:
       - ./db:/var/lib/mysql
 
@@ -40,3 +40,6 @@ services:
       - 8183:80
     links:
       - mysql:db
+      
+
+      

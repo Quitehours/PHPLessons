@@ -1,20 +1,21 @@
 <?php
-$title = "Task min/max from Sketch";
-include_once "../MyWebSite/header.php"; //подключает файл 
-include_once "../MyWebSite/footer.php"
+// $title = "Task min/max from Sketch";
+// include_once "../MyWebSite/header.php"; //подключает файл 
+// include_once "../MyWebSite/footer.php"
 /*Ваше задание — создать массив, наполнить его случайными значениями 
 (можно использовать функцию rand), найти максимальное и минимальное значение массива и поменять их местами.
 После каждого существенного изменения массива отображать его через var_dump*/
 
-    if(isset($_GET['number'])){
+    if(isset($_GET['number'])) {
 
-    $arr = null;
-    for($i=0;$i<$_GET['number'];$i++)
-    {
-        $arr[$i] = rand(0,100);
-    }
-    echo "<b>Random Array = </b>";
-    echo var_dump($arr);
+        $arr = null;
+    
+        for($i=0;$i<$_GET['number'];$i++)
+            {
+                $arr[$i] = rand(0,100);
+            }
+        echo "<b>Random Array = </b>";
+        echo var_dump($arr);
 
     $max = null;
     $min = null;

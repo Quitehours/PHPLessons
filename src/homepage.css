@@ -19,8 +19,9 @@ header {
     border-radius: 20px;
     line-height: 0px;
     text-align: center;
+    position: relative;
 }
-#HTML {
+#HTML, #JS  {
     width: 10%;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.664);
@@ -35,7 +36,7 @@ header {
     line-height: 10px;
     text-align: center;
 }
-#CSS {
+#CSS, #NodeJS {
     width: 10%;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.664);
@@ -50,7 +51,7 @@ header {
     line-height: 10px;
     text-align: center;
 }
-#PHP {
+#PHP, #JQuery {
     width: 10%;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.664);
@@ -65,7 +66,7 @@ header {
     line-height: 10px;
     text-align: center;
 }
-#MySQL {
+#MySQL, #AJAX {
     width: 10%;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.664);
@@ -97,6 +98,23 @@ header {
     text-align: center;
     position: relative;
 }
+#MyAchievementsInMyJS, #MyAchievementsInMyNodeJS, #MyJQuery, #MyAJAX  {
+    width: 21%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    margin: 10px 25px 10px 25px;
+    margin-top: 25px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #000000;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    float: left;
+    border-radius: 20px;
+    line-height: 0px;
+    text-align: center;
+    position: relative;
+}
 .textTable {
     text-align: left;
     font-weight: normal;
@@ -117,15 +135,7 @@ footer {
     border-radius: 20px;
     line-height: 1px;
 }
-#JS, #nodeJS {
-    float: left;
-    height: 50px;
-    width: 10%;
-    padding: 0.5em;
-    margin-top: 25px;
-    font-size: 1.1em;
-}
-#HTML:hover, #CSS:hover, #PHP:hover, #MySQL:hover {
+#HTML:hover, #CSS:hover, #PHP:hover, #MySQL:hover, #JS:hover, #NodeJS:hover, #JQuery:hover, #AJAX:hover {
     width: 10%;
     height: 60px;
     background-color: rgba(100, 148, 237, 0.63);

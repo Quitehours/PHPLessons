@@ -40,7 +40,7 @@
         }
         echo $error_from . $error_to . $error_subject . $error_message;
     }
-?>
+        ?>
 <!DOCTYPE html>
 <html>
     <head>

@@ -1,0 +1,32 @@
+@import 'variables';
+
+#main-page a {
+    color: red;
+}
+#main-page div {
+    background: cyan;
+}
+#main-page p {
+    margin-top: 10px;
+}
+
+#main-page {
+    a {
+        color: red;
+    }
+    div {
+        background: $primary-color;
+        a {
+            color: peru;
+        }
+        &:hover{
+
+        }
+    }
+    div:hover{
+
+    }
+    p {
+        margin-top: 10px;
+    }
+}

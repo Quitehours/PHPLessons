@@ -1,0 +1,35 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <img src="1.jpg" alt="Изображение" title="Изображение"><br/>
+    <img src="2.jpg" ><br/>
+    <img src="3.jpg" ><br/>
+    <img src="4.jpg" alt="Изображение" title="Изображение"><br/>
+
+    <script type="text/javascript">
+    //НАйти все теги img у котороых нет атрибута alt
+    //Добавление атрибутов выполняется с помощью функции attr(Какой атрибут мы хотим добавить, значение которое нужно туда положить)
+        $(":not(img[alt])").attr("alt", "JQuery");
+
+        var elements = $("img");
+        var text = "";
+
+        for (let i = 0; i < elements.length; i++) {
+            text+=elements[i].alt + "\n";
+        }
+        alert(text);
+
+    </script>
+</body>
+</html>

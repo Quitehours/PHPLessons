@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        
+    </script>
+</head>
+<body>
+
+        <input type="text" name="title" class="title"> <br>
+        <textarea name="content" class="content" cols="30" rows="10"></textarea><br>
+        <button>Submit</button> 
+        <div class="outputTitle">
+            <ul>
+                <li>Тут будут title:</li>
+            </ul>
+        </div>
+    <script>
+    $(document).ready(function () {
+        $("body button").on("click", function() {
+            // получаем значение input
+            var titleValue = $("input.title").val();
+            // получаем значение textarea
+            var contentValue = $("textarea.content").val();
+            
+            $.ajax({
+                //метод отправки данных
+                method: "POST",
+                // Аналог action form, куда будет обращаться файл
+                url: "04_some.php",
+                //отправка вышеуказанных переменных
+                data: { title: titleValue, content: contentValue}
+            })
+                .done(function() {
+                    // alert( "Dat/a Saved: " + msg );
+                });
+            // Отчищаем строку после введение (нажатие сабмит)
+            $(".outputTitle").append('<li>' + titleValue + '</li>');
+            $("input.title").val('');
+            $("textarea.content").val('');
+        })
+
+
+    })
+    </script>
+</body>
+</html>
